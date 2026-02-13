@@ -1,6 +1,6 @@
-# 🎵 YouTube Mashup Generator
+#  YouTube Mashup Generator
 
-## 📌 Overview
+##  Overview
 
 This project implements a **Mashup Generator** that downloads videos of a specified singer from YouTube, converts them into audio files, trims them to a fixed duration, and merges them into a single output audio file.
 
@@ -11,19 +11,19 @@ The project includes:
 
 ---
 
-## 🚀 Program 1 – Command Line Mashup
+##  Program 1 – Command Line Mashup
 
-### ▶️ Usage
+###  Usage
 
 python <program.py> <SingerName> <NumberOfVideos> <AudioDuration> <OutputFileName>
 
-### ✅ Example
+###  Example
 
 python 102303280.py "Sharry Maan" 20 20 output.mp3
 
 ---
 
-### 📥 Parameters
+###  Parameters
 
 - **SingerName** – Name of the singer  
 - **NumberOfVideos** – Number of videos to download (must be > 10)  
@@ -32,7 +32,7 @@ python 102303280.py "Sharry Maan" 20 20 output.mp3
 
 ---
 
-### 🔎 Validation Requirements
+###  Validation Requirements
 
 The program checks for:
 
@@ -45,23 +45,23 @@ The program checks for:
 
 ---
 
-## 🌐 Program 2 – Web Service Mashup
+##  Program 2 – Web Service Mashup
 
 A web-based service that allows users to generate mashups via browser.
 
-### 📝 User Inputs Required
+###  User Inputs Required
 
 - Singer Name  
 - Number of Videos  
 - Duration of Each Video  
 - Email ID  
 
-### 📤 Output
+###  Output
 
 - The generated mashup file is compressed into ZIP format  
 - The ZIP file is sent to the provided email address  
 
-### ✅ Validation
+###  Validation
 
 - All fields are mandatory  
 - Email ID must be valid  
@@ -71,7 +71,7 @@ A web-based service that allows users to generate mashups via browser.
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - Python 3.x  
 - yt-dlp / pytube (YouTube downloading)  
@@ -82,7 +82,7 @@ A web-based service that allows users to generate mashups via browser.
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 Clone the repository:
 
@@ -95,13 +95,13 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Running the Command Line Program
+##  Running the Command Line Program
 
 python <RollNumber>.py <SingerName> <NumberOfVideos> <AudioDuration> <OutputFileName>
 
 ---
 
-## ▶️ Running the Web Service
+##  Running the Web Service
 
 python web_service.py
 
@@ -111,7 +111,7 @@ http://127.0.0.1:5000/
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - Ensure stable internet connection while downloading videos.  
 - Large number of videos may increase processing time.  
