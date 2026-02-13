@@ -1,5 +1,24 @@
+# Ignore parent folders
+../
+../../
+*
+
+# Allow only project files
+!*.py
+!*.md
+!requirements.txt
+!templates/
+!templates/**
+!.gitignore
+
+# Ignore virtual env
+venv/
+.venv/
+
+# Ignore generated folders
 videos/
 audios/
 trimmed/
-.venv/
+
+# Cache
 __pycache__/
