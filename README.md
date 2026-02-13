@@ -109,6 +109,11 @@ Open in browser:
 
 http://127.0.0.1:5000/
 
+<img width="788" height="679" alt="image" src="https://github.com/user-attachments/assets/86802d69-26d8-48ae-829b-48813bd9fac6" />
+
+
+<img width="923" height="895" alt="image" src="https://github.com/user-attachments/assets/7551beec-277d-4dee-8b01-65add85fd6f5" />
+
 ---
 
 ##  Notes
